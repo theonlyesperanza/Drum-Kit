@@ -10,8 +10,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
     makeSound(buttonInnerHTML);
 
     buttonAnimation(buttonInnerHTML);
-
-
+    
   });
 }
 
@@ -57,7 +56,6 @@ function makeSound(key) {
       crash.play();
       break;
 
-
     case "l":
       var kick = new Audio("sounds/kick-bass.mp3");
       kick.play();
@@ -78,4 +76,5 @@ function buttonAnimation(currentKey) {
   setTimeout(function() {
     activeButton.classList.remove("pressed");
   }, 100);
+  
 }
