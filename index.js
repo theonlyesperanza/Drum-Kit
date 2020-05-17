@@ -15,7 +15,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
   });
 }
 
-// Deteting Keyboard Press
+// Detecting Keyboard Press
 document.addEventListener("keydown", function(event) {
 
   makeSound(event.key);
